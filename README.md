@@ -35,8 +35,8 @@ OF the 181 identified records
 * 43 were correctly identified
 
 It did not identify the following errors:
-* Start date = 1 in row 7
-* annual_income = -100 in row 3
+* Start date = 1 in row 7 (which is interesting because this value is 44649 away from the median of this field and I adjusted the code to have a cut-off of 30000, I will need to look closer at this one)
+* annual_income = -100 in row 3 (I had initially asked it to test for negative values but it looks like this never made it through to the final piece of code)
 
 If we iterate with Claude until false-positives are 0 then the tool identified 43 out of the 45 errors.
 
