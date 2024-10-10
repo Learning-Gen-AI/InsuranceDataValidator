@@ -54,7 +54,7 @@ To further improve this, continue with Claude giving it the following prompts:
 
 
 Beyond that, you would not just use code written by an LLM as-is. In practice, you would likely do the following:
-* Before running any code written by an LLM, you should always work through it and make sure you understand each step before using it.
+* Before running any code written by an LLM, you should always work through it and make sure you understand each line of code before using it.
 * You should also check each package that is being used and make sure that there are no known issues or vulnerabilities with those packages. If there are, then interate with the LLM asking it to not use that package. It will not always be possible to use a different package.
 * Give the LLM the exact fields and an explanation of what each one represents along with precise definition of values that are and not allowed to have more precise test-code to start with. All of the code is run on your system so the only information the LLM is getting is the name of the fields and tables in your DB, if this is data-privacy concern then re-name the fields and table names before providing it to Claude.
 * Change the approach used to determine outliers, possibly using different approaches on different fields using your own knowledge of the expected distribution of values within that field
