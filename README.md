@@ -56,14 +56,19 @@ To correct the false-positives you could do something like this:
 
 > Adjust the code for fields that are TRUE / FALSE to not test the length of the field to determine outliers.
 
+> The testing is not flagging negative values in fields that store numbers, please adjust (this should fix 1 of the 2 issues it failed to fix)
+
+> The testing is not flagging low dates, flag any date before 1980 (this should fix the second of the 2 issues it failed to fix)
+
 Beyond that, you would not just use code written by an LLM as-is. In practice, you would likely do the following:
-* Before running any code written by an LLM, you should always work through it and make sure you understand each line of code before using it.
-* You should also check each package that is being used and make sure that there are no known issues or vulnerabilities with those packages. If there are, then interate with the LLM asking it to not use that package. It will not always be possible to use a different package.
+* Before running any code written by an LLM understand what every line of code is doing before using it.
+* Check each package that is being used and make sure that there are no known issues or vulnerabilities with those packages. If there are, then interate with the LLM asking it to not use that package. It will not always be possible to use a different package.
 * Give the LLM the exact fields and an explanation of what each one represents along with precise definition of values that are and not allowed to have more precise test-code to start with. All of the code is run on your system so the only information the LLM is getting is the name of the fields and tables in your DB, if this is data-privacy concern then re-name the fields and table names before providing it to Claude.
 * Change the approach used to determine outliers, possibly using different approaches on different fields using your own knowledge of the expected distribution of values within that field
 * When doing the descriptive statistics you would likely want to iterate with the LLM to improve the formatting of the output and possibly include some graphs.
 * You likely have a lot of data that does not live in a CSV so when the code is ready you would need to adjust it to connect to your data source.
-
+* You would want to train the code on data that contains known issues and make sure it identifies all of them. The step on generating synthetic data could be greatly expanded to generate synthetic data that mimics your own actual data which you can then adjust to contain examples of known data issues. Iterate until all known issues are identified.
+* You could add a step to clean the data, perhaps you have a default assumption for gender when the client doesn't provide one; you could code that in. Some fields can be derived from others, for example if you have a South African ID number you can derive the date of birth and gender from the ID number and use that to validate those two fields. In order to do something like this responsibly you would need it to generate very clear output of exactly what it changed and you would want to do a test afterwards to ensure that changes were made as it claims. A better approach here might be to let a human analyze the errors then manually write code to make the fixes and run that. Keeping a human in the loop here is critical to ensuring nothing goes wrong in the cleaning step. 
 
 # What not to do
-In one earlier iteration of a similar exercise the LLM wrote code that guessed the person's gender given their name if the gender was missing! This is an exmaple of why you need to read the code carefully before using it because the LLM might be doing something you never asked it to do!
+In one earlier iteration of a similar exercise the LLM wrote code that guessed the person's gender given their name if the gender was missing! This is an exmaple of why you need to read the code carefully before using it because the LLM might be doing something you never asked it to do and don't want it to do!
