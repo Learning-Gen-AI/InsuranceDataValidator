@@ -1,0 +1,182 @@
+Row,Column,Reason
+89,customer_name,Unusually short value: Amy Sims
+464,customer_name,Unusually short value: David Le
+561,customer_name,Unusually short value: Erik Le
+13,customer_name,Unusually long value: Elizabeth Rodriguez
+60,customer_name,Unusually long value: Jonathan Smith DDS
+72,customer_name,Unusually long value: Nicholas Wilson DVM
+112,customer_name,Unusually long value: Mrs. Lindsay Olson
+123,customer_name,Unusually long value: Stephanie Stevenson
+161,customer_name,Unusually long value: Dominique Mckinney
+187,customer_name,Unusually long value: Jacqueline Hawkins
+192,customer_name,Unusually long value: Sarah Williams DVM
+276,customer_name,Unusually long value: Stephanie Gallagher
+278,customer_name,Unusually long value: Elizabeth Santiago
+308,customer_name,Unusually long value: Dr. Sabrina Cruz MD
+344,customer_name,Unusually long value: Dr. Anthony Cameron
+379,customer_name,Unusually long value: Jessica Washington
+392,customer_name,Unusually long value: Christopher Schmitt
+399,customer_name,Unusually long value: Dr. Jamie Nelson MD
+455,customer_name,Unusually long value: Heather Johnson DDS
+490,customer_name,Unusually long value: Mr. Daniel Russell
+497,customer_name,Unusually long value: JACQUELINE WILLIAMS
+543,customer_name,Unusually long value: Christopher Robinson
+546,customer_name,Unusually long value: Curtis Blankenship
+570,customer_name,Unusually long value: Mr. James Erickson
+585,customer_name,Unusually long value: Ms. Ashley Sanchez
+588,customer_name,Unusually long value: Christopher Cunningham
+611,customer_name,Unusually long value: Jacqueline Sullivan
+618,customer_name,Unusually long value: Christopher Flores
+625,customer_name,Unusually long value: Christopher Hooper
+638,customer_name,Unusually long value: Theresa Richardson
+670,customer_name,Unusually long value: Dr. Samantha Meyer
+678,customer_name,Unusually long value: Mrs. Alicia Johnson
+750,customer_name,Unusually long value: Alexandra Hernandez
+754,customer_name,Unusually long value: Julie Trujillo PhD
+805,customer_name,Unusually long value: MICHELLE ALEXANDER
+822,customer_name,Unusually long value: Christine Davenport
+823,customer_name,Unusually long value: Mrs. Monica Mullen
+824,customer_name,Unusually long value: Stephanie Edwards MD
+839,customer_name,Unusually long value: Cynthia Guerrero DVM
+850,customer_name,Unusually long value: CHRISTOPHER TUCKER
+870,customer_name,Unusually long value: Danielle Patterson DDS
+905,customer_name,Unusually long value: DR. KIMBERLY THOMAS
+956,customer_name,Unusually long value: Gabriela Henderson
+972,customer_name,Unusually long value: Catherine Morrison
+979,customer_name,Unusually long value: Christopher Crawford
+981,customer_name,Unusually long value: Mrs. Stephanie Martinez DVM
+15,age,Unusually long value: flag
+63,gender,Missing value
+94,gender,Missing value
+122,gender,Missing value
+185,gender,Missing value
+187,gender,Missing value
+193,gender,Missing value
+222,gender,Missing value
+242,gender,Missing value
+301,gender,Missing value
+322,gender,Missing value
+398,gender,Missing value
+447,gender,Missing value
+473,gender,Missing value
+487,gender,Missing value
+537,gender,Missing value
+577,gender,Missing value
+624,gender,Missing value
+675,gender,Missing value
+744,gender,Missing value
+749,gender,Missing value
+775,gender,Missing value
+853,gender,Missing value
+859,gender,Missing value
+868,gender,Missing value
+892,gender,Missing value
+903,gender,Missing value
+912,gender,Missing value
+940,gender,Missing value
+949,gender,Missing value
+967,gender,Missing value
+19,gender,Unusually long value: Auto
+2,is_active,Unusually long value: FALSE
+7,is_active,Unusually long value: spanner
+29,is_active,Unusually long value: FALSE
+39,is_active,Unusually long value: FALSE
+41,is_active,Unusually long value: FALSE
+47,is_active,Unusually long value: FALSE
+52,is_active,Unusually long value: FALSE
+57,is_active,Unusually long value: FALSE
+65,is_active,Unusually long value: FALSE
+68,is_active,Unusually long value: FALSE
+74,is_active,Unusually long value: FALSE
+83,is_active,Unusually long value: FALSE
+94,is_active,Unusually long value: FALSE
+114,is_active,Unusually long value: FALSE
+118,is_active,Unusually long value: FALSE
+132,is_active,Unusually long value: FALSE
+144,is_active,Unusually long value: FALSE
+146,is_active,Unusually long value: FALSE
+148,is_active,Unusually long value: FALSE
+179,is_active,Unusually long value: FALSE
+181,is_active,Unusually long value: FALSE
+189,is_active,Unusually long value: FALSE
+196,is_active,Unusually long value: FALSE
+225,is_active,Unusually long value: FALSE
+228,is_active,Unusually long value: FALSE
+229,is_active,Unusually long value: FALSE
+245,is_active,Unusually long value: FALSE
+256,is_active,Unusually long value: FALSE
+257,is_active,Unusually long value: FALSE
+263,is_active,Unusually long value: FALSE
+267,is_active,Unusually long value: FALSE
+273,is_active,Unusually long value: FALSE
+295,is_active,Unusually long value: FALSE
+299,is_active,Unusually long value: FALSE
+313,is_active,Unusually long value: FALSE
+318,is_active,Unusually long value: FALSE
+328,is_active,Unusually long value: FALSE
+376,is_active,Unusually long value: FALSE
+378,is_active,Unusually long value: FALSE
+379,is_active,Unusually long value: FALSE
+393,is_active,Unusually long value: FALSE
+402,is_active,Unusually long value: FALSE
+410,is_active,Unusually long value: FALSE
+436,is_active,Unusually long value: FALSE
+449,is_active,Unusually long value: FALSE
+459,is_active,Unusually long value: FALSE
+466,is_active,Unusually long value: FALSE
+470,is_active,Unusually long value: FALSE
+487,is_active,Unusually long value: FALSE
+501,is_active,Unusually long value: FALSE
+514,is_active,Unusually long value: FALSE
+518,is_active,Unusually long value: FALSE
+546,is_active,Unusually long value: FALSE
+576,is_active,Unusually long value: FALSE
+588,is_active,Unusually long value: FALSE
+592,is_active,Unusually long value: FALSE
+599,is_active,Unusually long value: FALSE
+612,is_active,Unusually long value: FALSE
+614,is_active,Unusually long value: FALSE
+636,is_active,Unusually long value: FALSE
+644,is_active,Unusually long value: FALSE
+654,is_active,Unusually long value: FALSE
+657,is_active,Unusually long value: FALSE
+664,is_active,Unusually long value: FALSE
+668,is_active,Unusually long value: FALSE
+670,is_active,Unusually long value: FALSE
+680,is_active,Unusually long value: FALSE
+696,is_active,Unusually long value: FALSE
+729,is_active,Unusually long value: FALSE
+737,is_active,Unusually long value: FALSE
+747,is_active,Unusually long value: FALSE
+749,is_active,Unusually long value: FALSE
+764,is_active,Unusually long value: FALSE
+776,is_active,Unusually long value: FALSE
+781,is_active,Unusually long value: FALSE
+788,is_active,Unusually long value: FALSE
+805,is_active,Unusually long value: FALSE
+811,is_active,Unusually long value: FALSE
+813,is_active,Unusually long value: FALSE
+814,is_active,Unusually long value: FALSE
+852,is_active,Unusually long value: FALSE
+870,is_active,Unusually long value: FALSE
+893,is_active,Unusually long value: FALSE
+901,is_active,Unusually long value: FALSE
+902,is_active,Unusually long value: FALSE
+921,is_active,Unusually long value: FALSE
+923,is_active,Unusually long value: FALSE
+928,is_active,Unusually long value: FALSE
+945,is_active,Unusually long value: FALSE
+951,is_active,Unusually long value: FALSE
+967,is_active,Unusually long value: FALSE
+978,is_active,Unusually long value: FALSE
+983,is_active,Unusually long value: FALSE
+120,zip_code,Unusually long value: INVALID
+150,zip_code,Unusually long value: INVALID
+170,zip_code,Unusually long value: INVALID
+217,zip_code,Unusually long value: INVALID
+469,zip_code,Unusually long value: INVALID
+634,zip_code,Unusually long value: INVALID
+703,zip_code,Unusually long value: INVALID
+904,zip_code,Unusually long value: INVALID
+928,zip_code,Unusually long value: INVALID
+947,zip_code,Unusually long value: INVALID
