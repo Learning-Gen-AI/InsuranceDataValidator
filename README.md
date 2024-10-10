@@ -14,7 +14,7 @@ LLMs have limited ability to hold and process large amounts of data but they are
 > Great! Now add code to save this output meaningfully to file in a standard format
 
 > Change it to write the field analysis to a table and save that as a DOCX file
-7. I reviewed the code once more and made one small change, tt was classifying dates as being invalid if they are 100 years away from the mean of the column which is too far, I changed this to 30,000 days from 365,000
+7. I reviewed the code once more and made one small change, it was classifying dates as being invalid if they are 100 years away from the mean of the column which is too far, I changed this to 30,000 days from 365,000
 8. At this point it is doing exactly what I wanted it to. The main files are as follows:
    * **test.py**: The Python code
    * **flagged_records.csv**: (output) contains the records that the Python code identified as requiring a closer look
