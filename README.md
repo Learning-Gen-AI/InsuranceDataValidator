@@ -44,14 +44,15 @@ It failed to identify the following errors:
 
 If we iterate with Claude until false-positives are 0 then the tool identified 5 of the 7 data inconsistencies so even after doing something like this you always needs to do a final round of checks on the data to pick up the remaining outliers.
 
-# Final thoughts
+
+# Further developments and final thoughts
+
 This is very basic example of what can be done.
 
-To further improve this, continue with Claude giving it the following prompts:
+To correct the false-positives you could do something like this:
 > Adjust the code so that if the field is a persons name then no testing is done.
 
 > Adjust the code for fields that are TRUE / FALSE to not test the length of the field to determine outliers.
-
 
 Beyond that, you would not just use code written by an LLM as-is. In practice, you would likely do the following:
 * Before running any code written by an LLM, you should always work through it and make sure you understand each line of code before using it.
